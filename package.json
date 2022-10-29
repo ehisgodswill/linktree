@@ -1,5 +1,5 @@
 {
-  "name": "Medic-all",
+  "name": "Medic",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,12 +8,9 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^4.5.3",
-    "cors": "^2.8.5",
     "html-react-parser": "^1.4.12",
     "jodit": "^3.16.5",
     "jodit-react": "^1.2.23",
-    "mysql": "^2.18.1",
-    "nodemon": "^2.0.20",
     "react": "^17.0.2",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.2",
@@ -29,8 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "nodemon server"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
