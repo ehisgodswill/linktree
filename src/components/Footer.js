@@ -1,3 +1,4 @@
+import zuri from ''
 function Footer(){
     return(
         <footer className="footer">
