@@ -2,7 +2,7 @@ import slack from './assets/slack.png';
 import github from './assets/github.png'
 function LinkSection() {
     return (
-        <section>
+        <section className='linksection'>
             <div className='links'>
                 <a href='https://twitter.com/GoldenEhis' id='twitter_link'>Twitter Link</a>
                 <a href='https://training.zuri.team/' id='btn__zuri'>Zuri Team</a>
