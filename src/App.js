@@ -6,7 +6,7 @@ import LinkSection from './components/Linksection';
 function App() {
   return (
    <>
-    <Header />
+    {/* <Header /> */}
     <LinkSection />
     <Footer />
    </>
