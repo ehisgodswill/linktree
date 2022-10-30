@@ -1,13 +1,12 @@
-
+import dp from './assets/profile.jpg'
 function Header() {
     return (
-        <header>
+        <header className='header'>
             <span></span>
             <div className="profile">
-                <img src="" alt="Profile image" id='profile__img' />
-                <h3 id='twitter'>Ehis Godswill</h3>
-                <h3 id='slack'>Ehis Godswill</h3>
-                
+                <img src={dp} alt="Profile image" id='profile__img' />
+                <h5 id='twitter'>GoldenEhis</h5>
+                <h5 id='slack'>GodswillEhis</h5>
             </div>
         </header>
     )

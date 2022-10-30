@@ -3,12 +3,16 @@ body,
 #root {
   height: 100%;
   width: 100%;
+  padding: 0 calc(1% + 15px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  --grey: rgb(228, 225, 225);
 }
 
 body {
   font-family: system-ui;
   margin: 0;
-  padding: 0 20px;
 }
 
 *,
@@ -17,11 +21,39 @@ body {
   box-sizing: border-box;
 }
 
-.footer{
-  display: flex;
-  justify-content: space-between;
+.header{
   width: 100%;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.header h5{
+  margin: 10px auto;
+}
+#profile__img{
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
 }
 #slack{
   display: none;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: rgb(153, 152, 152);
+  border-top: 1px solid var(--grey);
+  font-size: 0.6rem;
+  padding: 20px 0 25px;
+}
+.footer>div{
+  font-weight: 700;
+}
+.footer>div>img{
+  height: 18px;
 }
